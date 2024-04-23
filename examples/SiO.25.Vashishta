@@ -1,0 +1,43 @@
+# THIS PARAMETER FILE WAS GENERATED USING genpot 
+#
+# URL: http://www.github.com/evenmn/generate-parameter-files
+# CONTRIBUTOR: Even M. Nordhagen, evenmn@fys.uio.no
+#
+# DATE: October 27, 2022
+# CITATION: W. Wang, A. Nakano, R. K. Kalia and P. Vashishta, Interatomic potentials for molecular dynamics simulations of hydrolosis and stress corrosion cracking of silica class (Unpublished)
+#
+# NB: THE PARAMETERS HAVE BEEN MODIFIED. POTENTIAL SCALED BY 0.25
+#
+# These entries are in LAMMPS "metal" units:
+#   H = eV*Angstroms^eta; Zi, Zj = |e| (e = electronic charge);
+#   r1s, r4s, rc, r0, xi = Angstroms;
+#   D = eV*Angstroms^4; W = eV*Angstroms^6; B = eV;
+#   other quantities are unitless
+#
+# element1  element2  element3
+#           H, eta, Zi, Zj, r1s, D, r4s
+#           W, rc, B, xi, r0, C, cos(theta)
+
+Si   Si   Si      0.098115         11        0.6        0.6       4.43        0.0        2.5
+                       0.0        5.5        0.0        0.0        0.0        0.0        0.0
+
+O    O    O      88.881575          7       -0.3       -0.3       4.43   3.110348        2.5
+                       0.0        5.5        0.0        0.0        0.0        0.0        0.0
+
+O    Si   Si     19.578575          9       -0.3        0.6       4.43   6.220696        2.5
+                       0.0        5.5      4.993        1.0        2.6        0.0  -0.777146
+
+Si   O    O      19.578575          9        0.6       -0.3       4.43   6.220696        2.5
+                       0.0        5.5    1.24825        1.0        2.6        0.0  -0.333313
+
+Si   O    Si           0.0        0.0        0.0        0.0        0.0        0.0        0.0
+                       0.0        0.0        0.0        0.0        0.0        0.0        0.0
+
+Si   Si   O            0.0        0.0        0.0        0.0        0.0        0.0        0.0
+                       0.0        0.0        0.0        0.0        0.0        0.0        0.0
+
+O    Si   O            0.0        0.0        0.0        0.0        0.0        0.0        0.0
+                       0.0        0.0        0.0        0.0        0.0        0.0        0.0
+
+O    O    Si           0.0        0.0        0.0        0.0        0.0        0.0        0.0
+                       0.0        0.0        0.0        0.0        0.0        0.0        0.0

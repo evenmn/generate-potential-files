@@ -1,0 +1,43 @@
+# THIS PARAMETER FILE WAS GENERATED USING genpot 
+#
+# URL: http://www.github.com/evenmn/generate-parameter-files
+# CONTRIBUTOR: Even M. Nordhagen, evenmn@fys.uio.no
+#
+# DATE: October 27, 2022
+# CITATION: No reference
+#
+# NB: THE PARAMETERS HAVE BEEN MODIFIED
+#
+# These entries are in LAMMPS "metal" units:
+#   H = eV*Angstroms^eta; Zi, Zj = |e| (e = electronic charge);
+#   r1s, r4s, rc, r0, xi = Angstroms;
+#   D = eV*Angstroms^4; W = eV*Angstroms^6; B = eV;
+#   other quantities are unitless
+#
+# element1  element2  element3
+#           H, eta, Zi, Zj, r1s, D, r4s
+#           W, rc, B, xi, r0, C, cos(theta)
+
+H    H    H            0.0          9       0.42       0.42       4.43        0.0        2.5
+                       0.0        5.5        0.0        0.0        0.0        0.0        0.0
+
+O    O    O        1965.88          9      -0.84      -0.84       4.43     2.0887        2.5
+                      10.0        5.5        0.0        0.0        0.0        0.0        0.0
+
+O    H    H        0.61437          9      -0.84       0.42       4.43     0.2611    1.51113
+                       0.0        5.5    52.9333       0.75        1.4        0.0  -0.138267
+
+H    O    O        0.61437          9       0.42      -0.84       4.43     0.2611    1.51113
+                       0.0        5.5        0.0        0.0        0.0        0.0        0.0
+
+H    O    H            0.0        0.0       0.42      -0.84        0.0        0.0        0.0
+                       0.0        0.0        0.0        0.0        0.0        0.0        0.0
+
+H    H    O            0.0        0.0       0.42       0.42        0.0        0.0        0.0
+                       0.0        0.0        0.0        0.0        0.0        0.0        0.0
+
+O    H    O            0.0        0.0      -0.84       0.42        0.0        0.0        0.0
+                       0.0        0.0        0.0        0.0        0.0        0.0        0.0
+
+O    O    H            0.0        0.0      -0.84      -0.84        0.0        0.0        0.0
+                       0.0        0.0        0.0        0.0        0.0        0.0        0.0

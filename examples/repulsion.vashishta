@@ -1,0 +1,20 @@
+# THIS PARAMETER FILE WAS GENERATED USING genpot 
+#
+# URL: http://www.github.com/evenmn/generate-parameter-files
+# CONTRIBUTOR: Even M. Nordhagen, evenmn@fys.uio.no
+#
+# DATE: October 27, 2022
+# CITATION: None
+#
+# These entries are in LAMMPS "metal" units:
+#   H = eV*Angstroms^eta; Zi, Zj = |e| (e = electronic charge);
+#   r1s, r4s, rc, r0, xi = Angstroms;
+#   D = eV*Angstroms^4; W = eV*Angstroms^6; B = eV;
+#   other quantities are unitless
+#
+# element1  element2  element3
+#           H, eta, Zi, Zj, r1s, D, r4s
+#           W, rc, B, xi, r0, C, cos(theta)
+
+X    X    X            1.0        1.0        0.0        0.0        1.0        0.0        1.0
+                       0.0       10.0        0.0        0.0        0.0        0.0        0.0
